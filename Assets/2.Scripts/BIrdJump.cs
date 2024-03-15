@@ -18,7 +18,7 @@ public class BIrdJump : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            rb.velocity = Vector2.up * 3;
+            rb.velocity = Vector2.up * jumpPower;
         }
     }
 }
